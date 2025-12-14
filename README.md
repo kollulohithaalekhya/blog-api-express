@@ -129,7 +129,7 @@ Expected output:
 
 ## 📌 API Endpoints
 
-### 👤 Author Endpoints
+### Author Endpoints
 
 | Method | Endpoint       | Description                   |
 |--------|----------------|-------------------------------|
@@ -141,7 +141,7 @@ Expected output:
 
 ---
 
-### 📝 Post Endpoints
+### Post Endpoints
 
 | Method | Endpoint             | Description                         |
 |--------|----------------------|-------------------------------------|
@@ -154,7 +154,7 @@ Expected output:
 
 ---
 
-### 🔗 Nested Resource Endpoint
+### Nested Resource Endpoint
 
 | Method | Endpoint             | Description                         |
 |--------|----------------------|-------------------------------------|
@@ -162,7 +162,7 @@ Expected output:
 
 ---
 
-## 🧪 API Testing
+## API Testing
 
 Tested using **Thunder Client** and **Postman**.
 
@@ -177,7 +177,7 @@ Tested using **Thunder Client** and **Postman**.
 
 ---
 
-## ✅ Key Features
+##  Key Features
 
 - RESTful API design  
 - Sequelize model associations  
@@ -190,7 +190,7 @@ Tested using **Thunder Client** and **Postman**.
 
 ---
 
-## 🔐 Security Notes
+## Security Notes
 
 - `.env` is ignored via `.gitignore`
 - Credentials are never committed
