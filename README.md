@@ -41,7 +41,6 @@ blog-api-express/
 ├── package.json
 ├── package-lock.json
 ├── .gitignore
-├── .env.example
 └── README.md
 ```
 
