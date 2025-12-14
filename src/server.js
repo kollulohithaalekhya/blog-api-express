@@ -8,7 +8,7 @@ sequelize.sync({ alter: true })
     console.log('Database synced');
 
     app.listen(PORT, () => {
-      console.log(` Server running on port ${PORT}`);
+      console.log(`Server running on port ${PORT}`);
     });
   })
   .catch((error) => {
