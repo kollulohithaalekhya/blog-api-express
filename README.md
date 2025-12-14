@@ -1,5 +1,4 @@
-```markdown
-# 📘 Blog API – Express.js & PostgreSQL
+# Blog API – Express.js & PostgreSQL
 
 A RESTful Blog API built using **Express.js**, **Sequelize**, and **PostgreSQL** that manages **Authors** and their **Posts** with a proper **one-to-many relationship**.
 
@@ -7,7 +6,7 @@ This project demonstrates backend fundamentals such as database modeling, foreig
 
 ---
 
-## 🚀 Tech Stack
+## Tech Stack
 
 - **Node.js**
 - **Express.js**
@@ -48,7 +47,7 @@ blog-api-express/
 
 ---
 
-## 🧠 Database Design
+## Database Design
 
 ### Author Table
 - `id` (Primary Key)
@@ -93,7 +92,7 @@ Create a `.env` file in the project root.
 
 > ⚠️ **Do NOT commit this file** (it is ignored via `.gitignore`)
 
-Example format (`.env.example`):
+Example (`.env.example`):
 
 ```env
 PORT=3000
@@ -104,13 +103,9 @@ DB_NAME=blog_db
 DB_DIALECT=postgres
 ```
 
-Use your **own PostgreSQL credentials** locally.
-
 ---
 
 ### 4️⃣ Create Database
-
-Using PostgreSQL (psql or pgAdmin):
 
 ```sql
 CREATE DATABASE blog_db;
@@ -170,9 +165,9 @@ Expected output:
 
 ## 🧪 API Testing
 
-All endpoints were tested using **Thunder Client** and **Postman**.
+Tested using **Thunder Client** and **Postman**.
 
-### Tested Scenarios:
+### Scenarios:
 - Valid & invalid author creation
 - Duplicate email validation
 - Creating posts with valid/invalid authors
@@ -189,18 +184,18 @@ All endpoints were tested using **Thunder Client** and **Postman**.
 - Sequelize model associations  
 - Foreign key constraints  
 - Cascade delete support  
-- Efficient JOIN queries (avoids N+1 problem)  
+- Efficient JOIN queries  
 - Clean MVC folder structure  
 - Proper HTTP status codes  
-- Secure handling of environment variables  
+- Secure environment variable handling  
 
 ---
 
 ## 🔐 Security Notes
 
-- `.env` file is excluded using `.gitignore`
-- Credentials are **never committed**
-- `.env.example` is provided for reference
+- `.env` is ignored via `.gitignore`
+- Credentials are never committed
+- `.env.example` provided for reference
 
 ---
 
@@ -209,3 +204,4 @@ All endpoints were tested using **Thunder Client** and **Postman**.
 **Alekhya**  
 GitHub: https://github.com/kollulohithaalekhya
 
+---
