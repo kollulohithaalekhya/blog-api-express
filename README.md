@@ -194,7 +194,6 @@ Tested using **Thunder Client** and **Postman**.
 
 - `.env` is ignored via `.gitignore`
 - Credentials are never committed
-- `.env.example` provided for reference
 
 ---
 
