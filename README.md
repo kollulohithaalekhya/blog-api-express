@@ -121,8 +121,8 @@ npm run dev
 Expected output:
 
 ```
-✅ Database synced
-🚀 Server running on port 3000
+Database synced
+Server running on port 3000
 ```
 
 ---
